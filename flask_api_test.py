@@ -13,7 +13,7 @@ def get_players():
     return (jsonify(players))
 
 @app.post("/players")
-def create_team():
+def create_player():
     player = {"name": request.json['name'], "age": request.json['age'] }
     players.append(player)
     return (jsonify(players))

@@ -1,0 +1,23 @@
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# PDF
+*.pdf
+
+# JSOM
+*.json
+
+# Excel
+*.xls
+*.xlsx
+
+# Compressed file
+*.zip
+
+.DS_Store
+*.pyc
